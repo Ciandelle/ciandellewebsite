@@ -2,10 +2,6 @@
 title: My very second post
 date: 2021-03-10
 description: Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam
-tags:
-  - hello
-  - second
-  - wow
 ---
 
 hello

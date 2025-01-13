@@ -18,28 +18,4 @@ module.exports = (config) => {
   config.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL, yyyy");
   });
-
-  config.addCollection("tagList", collection => {
-    const tagsObject = {}
-    collection.getAll().forEach(item => {
-      if (!item.data.tags) return;
-      item.data.tags
-        .filter(tag => !['post', 'all'].includes(tag))
-        .forEach(tag => {
-          if(typeof tagsObject[tag] === 'undefined') {
-            tagsObject[tag] = 1
-          } else {
-            tagsObject[tag] += 1
-          }
-        });
-    });
-
-    const tagList = []
-    Object.keys(tagsObject).forEach(tag => {
-      tagList.push({ tagName: tag, tagCount: tagsObject[tag] })
-    })
-    return tagList.sort((a, b) => b.tagCount - a.tagCount)
-
-  });
-
 }

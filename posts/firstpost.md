@@ -2,10 +2,6 @@
 title: My very first post
 date: 2021-03-10
 description: Nesciunt nulla quisquam magnam libero consequatur debitis est, dolorum quam excepturi soluta
-tags:
-  - hello
-  - css
-  - nice
 ---
 
 hello
