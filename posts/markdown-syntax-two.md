@@ -15,9 +15,6 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 # H1
 ## H2
 ### H3
-#### H4
-##### H5
-###### H6
 
 ## Paragraph
 
