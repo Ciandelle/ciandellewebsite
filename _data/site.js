@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
     title: "LOGO HERE",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "I believe in human based design, interated from user research.",
     lang: "en",
     siteUrl: "https://cnhughesdesign.com/",
   },
@@ -15,6 +15,6 @@ module.exports = {
   },
   hero: { // used in hero section of main page ie. index.html.njk
     title: "Ciandelle Hughes",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse."
+    description: "I believe in human based design, interated from user research."
   }
 }

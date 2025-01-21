@@ -86,7 +86,7 @@ a {
   text-decoration: none;
 }
 body.dark a {
-  color: #54a6bb;
+  color: #0040d6;
 }
 a:hover {
   text-decoration: underline;
@@ -281,7 +281,7 @@ body.dark .card__date {
 
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -289,7 +289,7 @@ body.dark .card__date {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #0040D6;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -298,7 +298,7 @@ body.dark .card__date {
 
 .timeline-container {
   box-sizing: border-box;
-  padding: 10px 40px;
+  padding: 10px 30px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -332,7 +332,7 @@ body.dark .card__date {
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 35px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
@@ -345,7 +345,7 @@ body.dark .card__date {
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 35px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
@@ -356,10 +356,12 @@ body.dark .card__date {
 }
 
 .content {
-  padding: 20px 30px;
+  padding: 20px 20px;
   background-color: white;
   position: relative;
   border-radius: 6px;
+  border: 2px solid #2163ff;
+  box-shadow: 2px 2px #6b97ff;
 }
 
 @media screen and (max-width: 600px) {
@@ -387,4 +389,15 @@ body.dark .card__date {
   .timeline-right {
   left: 0%;
   }
+}
+
+.dark-mode-header {
+  font-size: 24px;
+  line-height: 30px;
+  color: #0a090c;
+  margin-top: 5px;
+}
+
+.dark-mode-text {
+  color: #0a090c;
 }
