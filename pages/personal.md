@@ -18,4 +18,4 @@ I live in the South East of England with my husband and 2 cats. I'm pretty intro
 I also love all types of music. I'm a big fan of soundtracks to tv shows to help me concentrate, but I also love a varied array of music. I'm also love going to see music live when I can.  
 
 ### Health
-In 2021 I was diagnosed with stage 1 lung cancer. I'm currently all clear but as a result I'm very health conscious. I have some other chronic conditions but overall I manage pretty well.
+In 2021 I was diagnosed with stage 1 lung cancer and as a result I'm very health conscious. I have some other chronic conditions but overall I manage pretty well.
